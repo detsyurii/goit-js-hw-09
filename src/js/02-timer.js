@@ -7,6 +7,7 @@ const refs = {
   datetimeInput: document.querySelector('#datetime-picker'),
 };
 
+let timerDeadline = null;
 refs.startBtn.disabled = true;
 
 const options = {
